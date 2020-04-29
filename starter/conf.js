@@ -36,7 +36,8 @@ exports.config = {
               'password_manager_enabled': false
           }
       }
-  },
+    },
+
 
   jasmineNodeOpts: {
       showColors: true,
