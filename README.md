@@ -51,3 +51,20 @@ The framework has already been setup in the /starter folder, please add your tee
 ### Some info about ADF
 * https://github.com/Alfresco/alfresco-ng2-components
 * https://alfresco.github.io/adf-component-catalog/
+
+
+1. To run the tests locally:
+   a. open a Command Line by accessing the Tools -> Command Line -> Developer Command Prompt in the Visual studio;
+   b. from Command Prompt change directory to your tests location by inserting the following command -> cd starter;
+   c. in Command Prompt insert the following command -> protractor conf.js ( this is the command to run the tests).
+
+2. In the solution I chose to do page object to keep the modules decoupled and the solution clean. There were still 
+instances were web elements could not be put in page objects due to the expected result conditions. I tried to keep 
+solving the problem smooth and simple. 
+
+
+3. The prerequisites are the following:
+- npm 
+- protractor
+- jasmine
+- babel-register 
